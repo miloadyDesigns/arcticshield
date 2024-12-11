@@ -1,29 +1,4 @@
-'use client'
-import ProductCard from "@/components/ProductCard/ProductCard";
-import ProductSwiper from "@/components/Swiper/ProductSwiper";
-import Image from "next/image";
-import Marquee from "react-fast-marquee";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation'
-import { useEffect, useRef } from "react";
-import AdvantageCard from "@/components/AdvantagesCard/AdvantageCard";
-import TestimonialCard from "@/components/TestimonailCard/TestimonialCard";
-import Faqs from "@/components/Faqs/Faqs";
-import { FaInstagram } from "react-icons/fa6";
-import { FaFacebook, FaTiktok, FaLinkedin } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
-import { IoMdSend } from "react-icons/io";
-
-export default function Home() {
-  const swiperRef = useRef(null);
-
-  return (
-    <>
-      <section className="relative w-screen ">
+<section className="relative w-screen ">
         <Marquee speed={100}>
           <h3 className="text-black text-[22px] font-semibold">Free shipping on U.S. orders over $50 ⭐ 10% discount on orders over $100 ⭐ Bulk orders (10+) qualify for a corporate discount.</h3>
         </Marquee>
@@ -222,6 +197,3 @@ export default function Home() {
         
 
       </section>
-    </>
-  );
-}

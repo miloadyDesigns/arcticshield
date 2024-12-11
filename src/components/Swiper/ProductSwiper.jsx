@@ -53,7 +53,7 @@ const ProductSwiper = () => {
         <div className="carousel" ref={carouselRef}>
 
             <div className="list" ref={listRef}>
-                <div className="item" style={{ backgroundImage: `url("/images/gloves.jpg")` }}>
+                <div className="item" style={{ backgroundImage: `url("/images/gloves.webp")` }}>
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     <div className="content">
                         <div className="title">Arctic Shield</div>
@@ -81,7 +81,7 @@ const ProductSwiper = () => {
 
 
 
-                <div className="item" style={{ backgroundImage: `url("/images/ice_scrapers.jpg")` }}>
+                <div className="item" style={{ backgroundImage: `url("/images/ice_scrapers.webp")` }}>
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     <div className="content">
                         <div className="title">Arctic Shield</div>
@@ -95,7 +95,7 @@ const ProductSwiper = () => {
 
                 </div>
 
-                <div className="item" style={{ backgroundImage: `url("/images/emergency.jpg")` }}>
+                <div className="item" style={{ backgroundImage: `url("/images/emergency.webp")` }}>
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     <div className="content">
                         <div className="title">Arctic Shield</div>
@@ -109,7 +109,7 @@ const ProductSwiper = () => {
 
                 </div>
 
-                <div className="item" style={{ backgroundImage: `url("/images/merchandise.jpg")` }}>
+                <div className="item" style={{ backgroundImage: `url("/images/merchandise.webp")` }}>
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     <div className="content">
                         <div className="title">Arctic Shield</div>
@@ -123,7 +123,7 @@ const ProductSwiper = () => {
 
                 </div>
 
-                <div className="item" style={{ backgroundImage: `url("/images/promotional.jpg")` }}>
+                <div className="item" style={{ backgroundImage: `url("/images/promotional.webp")` }}>
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                     <div className="content">
                         <div className="title">Arctic Shield</div>
