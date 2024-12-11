@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('/fonts/roboto.ttf') format('truetype');
+  font-display: "swap";
+}
+@font-face {
+  font-family: 'salvatoro';
+  src: url('/fonts/salvatoro.otf') format('opentype');
+  font-display: "swap";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.parallel-x{
+  background: url("/images/utils/protectedWiper.jpg") repeat fixed 100%;
+}
+.parallex-inner{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-watch {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #14ff72cb;
+  font-weight: 700;
+}
+
+.btn-watch:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-watch:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-watch-white {
+  background-color: #fff;
+  color: #777;
+}
+
+.btn-watch::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: transform 0.4s, opacity 0.4s;
+  background-color: #fff;
+}
+
+.btn-watch:hover::after {
+  transform: scale(1.6);
+  opacity: 0;
+}
+
+.btn-watch-animated {
+  animation: moveInBottom 5s ease-out backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
