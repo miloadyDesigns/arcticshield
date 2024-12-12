@@ -43,7 +43,7 @@ const ProductMainSwiper = () => {
             >
                 <SwiperSlide>
                     <div
-                        className="w-screen h-[80vh] relative slide"
+                        className="w-screen xs:h-[85vh] lg:h-[80vh] relative slide"
                         style={{
                             background: 'url("/images/wiper.gif")',
                             backgroundSize: 'cover',
@@ -67,19 +67,19 @@ const ProductMainSwiper = () => {
                             </div>
                             <div className='z-[100] h-full xs:w-[90%] lg:w-[50%] lg:pt-[15%] flex md:justify-center  lg:justify-end'>
                                 <div className='w-[400px] h-[250px] lg:mr-[15%] bg-white rounded-lg flex flex-col items-center '>
-                                    <h1 className='text-[18px] text-center p-4  font-roboto font-semibold'>Find Your Wipers Cover</h1>
+                                    <h1 className='text-[18px] text-center p-4  font-roboto font-semibold text-black'>Find Your Wipers Cover</h1>
                                     <SelectRoot
                                         collection={animeMovies}
                                         size="sm"
                                         width="320px"
-                                        className="m-2 border pl-3"
+                                        className="m-2 border border-black pl-3"
                                     >
                                         <SelectTrigger clearable>
-                                            <SelectValueText placeholder="Make" />
+                                            <SelectValueText className='text-black' placeholder="Make" />
                                         </SelectTrigger>
                                         <SelectContent className=''>
                                             {animeMovies.items.map((movie) => (
-                                                <SelectItem item={movie} key={movie.value}>
+                                                <SelectItem className='text-black' item={movie} key={movie.value}>
                                                     {movie.label}
                                                 </SelectItem>
                                             ))}
@@ -89,20 +89,20 @@ const ProductMainSwiper = () => {
                                         collection={animeMovies}
                                         size="sm"
                                         width="320px"
-                                        className="m-2 border pl-3"
+                                        className="m-2 border border-black pl-3"
                                     >
                                         <SelectTrigger clearable>
-                                            <SelectValueText placeholder="Model" />
+                                            <SelectValueText className='text-black' placeholder="Model" />
                                         </SelectTrigger>
                                         <SelectContent className=''>
                                             {animeMovies.items.map((movie) => (
-                                                <SelectItem item={movie} key={movie.value}>
+                                                <SelectItem className='text-black' item={movie} key={movie.value}>
                                                     {movie.label}
                                                 </SelectItem>
                                             ))}
                                         </SelectContent>
                                     </SelectRoot>
-                                    <div className='bg-[#14ff72cb] p-3 rounded-lg mt-2 w-[80%] text-center cursor-pointer'>
+                                    <div className='bg-[#14ff72cb] p-3 rounded-lg mt-2 w-[80%] text-center cursor-pointer text-black'>
                                         Search
                                     </div>
                                 </div>

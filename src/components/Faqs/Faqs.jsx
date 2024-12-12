@@ -28,8 +28,8 @@ const Faqs = () => {
         >
             {items.map((item, index) => (
                 <AccordionItem key={index} value={item.value} className="border-b border-gray-200">
-                    <AccordionItemTrigger className="px-4 py-4 xs:text-lg lg:text-2xl font-semibold transition-transform duration-300 ease-in-out hover:translate-x-2">{item.title}</AccordionItemTrigger>
-                    <AccordionItemContent className="px-4 py-3 xs:text-[14px] lg:text-lg leading-relaxed duration-300 ease-in-out">{item.text}</AccordionItemContent>
+                    <AccordionItemTrigger className="px-4 py-4 xs:text-lg lg:text-2xl font-semibold transition-transform duration-300 ease-in-out hover:translate-x-2 text-black">{item.title}</AccordionItemTrigger>
+                    <AccordionItemContent className="px-4 py-3 xs:text-[14px] lg:text-lg leading-relaxed duration-300 ease-in-out text-black">{item.text}</AccordionItemContent>
                 </AccordionItem>
             ))}
         </AccordionRoot>

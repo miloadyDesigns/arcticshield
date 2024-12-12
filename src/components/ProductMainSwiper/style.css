@@ -1,4 +1,7 @@
 /* Regular styles */
+body{
+    background-color: white;
+}
 .slide .subtitle {
     font-size: 100px;
     text-transform: uppercase;

@@ -22,7 +22,7 @@ export default function Home() {
     <>
       <section className="relative w-screen ">
         <Marquee speed={100}>
-          <h3 className="text-black xs:text-[18px] lg:text-[22px] font-semibold">Free shipping on U.S. orders over $50 ⭐ 10% discount on orders over $100 ⭐ Bulk orders (10+) qualify for a corporate discount.</h3>
+          <h3 className="text-black xs:text-[18px] lg:text-[22px] font-semibold bg-white">Free shipping on U.S. orders over $50 ⭐ 10% discount on orders over $100 ⭐ Bulk orders (10+) qualify for a corporate discount.</h3>
         </Marquee>
         <div className="">
           <ProductMainSwiper />
@@ -35,7 +35,7 @@ export default function Home() {
           <img src="/images/client/client-5.jpg" alt="" className="xs:w-[100px] md:w-[130px] lg:w-[200px]  xs:h-[50px] lg:h-[100px]" />
           <img src="/images/client/client-6.jpg" alt="" className="xs:w-[100px] md:w-[130px] lg:w-[200px]  xs:h-[50px] lg:h-[100px]" />
         </div>
-        <div className="xs:w-[98%] lg:w-[80%] mt-4 m-auto">
+        <div className="xs:w-[98%] lg:w-[80%] mt-4 m-auto bg-white">
           <div className="flex justify-between items-center border border-t-0 border-l-0 border-r-0 border-b-2">
             <h1 className="text-black xs:text-[26px] lg:text-[32px] font-bold">Best Sellers</h1>
             <h3 className="underline cursor-pointer">View More</h3>
@@ -207,7 +207,7 @@ export default function Home() {
                 breakpoints={{
                   // When the screen width is 1024px or more (large tablets and up)
                   1024: {
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                     slidesPerGroup: 2,
                     spaceBetween: 30,
                   },
@@ -262,7 +262,7 @@ export default function Home() {
         </div>
         <div className="xs:w-[90%] lg:w-[80%] m-auto mb-16">
           <div className="mt-12">
-            <h3 className="text-center text-[32px] font-salvatoro font-bold">Frequently asked questions</h3>
+            <h3 className="text-center text-[32px] font-salvatoro font-bold text-black">Frequently asked questions</h3>
             <div className="mt-12 xs:w-[100%] lg:w-[60%] m-auto">
               <Faqs />
             </div>
