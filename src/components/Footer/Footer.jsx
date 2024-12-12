@@ -6,8 +6,8 @@ import { IoMdSend } from "react-icons/io";
 const Footer = () => {
     return (
         <div className="w-screen bg-black pb-8">
-            <div className="w-[80%] m-auto mt-4 flex justify-around">
-                <div className="w-[25%] flex flex-col  pt-12 px-5">
+            <div className="xs:w-[100%] lg:w-[80%] m-auto mt-4 flex xs:flex-col lg:flex-row justify-around">
+                <div className="xs:w-[90%] lg:w-[25%] flex flex-col  pt-12 px-5">
                     <img src="/images/logo2.avif" alt="" className='w-[200px]' />
                     <p className="mt-4 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique sint harum, perspiciatis facilis dolore esse soluta eligendi? Repellat, quas dignissimos!</p>
                     <div className="flex gap-4 mt-4">
@@ -18,8 +18,8 @@ const Footer = () => {
                         <BsTwitterX size={30} color="white" />
                     </div>
                 </div>
-                <div className=" w-[30%] pt-12">
-                    <div className="flex justify-between">
+                <div className="xs:w-[90%] lg:w-[30%] pt-12 xs:px-5 lg:px-0">
+                    <div className="flex xs:flex-col lg:flex-row justify-between">
                         <div>
                             <h1 className="text-white text-xl font-bold">Shop</h1>
                             <ul className="mt-4">
@@ -32,7 +32,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h1 className="text-white text-xl font-bold">More</h1>
+                            <h1 className="text-white text-xl font-bold xs:mt-6 lg:mt-0">More</h1>
                             <ul className="mt-4">
                                 <li className="py-1 text-white">Contact</li>
                                 <li className="py-1 text-white">Return & Exchange</li>
@@ -43,7 +43,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[25%] pt-12">
+                <div className="xs:w-[90%] lg:w-[25%] pt-12 xs:px-5 lg:px-0">
                     <h1 className="text-white text-xl font-bold">Exclusive Benefits</h1>
                     <p className="mt-4 text-gray-400 text-[16px]">Sign up for exclusive offers, original stories, events and more.</p>
                     <div className="mt-4 w-[100%] flex items-center">

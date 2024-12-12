@@ -1,0 +1,131 @@
+/* Regular styles */
+.slide .subtitle {
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #14ff72cb;
+    font-weight: bold;
+    line-height: 1;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.slide .title {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    width: 100%;
+    text-shadow: 3px 4px 4px rgba(255, 255, 255, 0.8);
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.slide .description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    color: white;
+    width: 70%;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.slide .actionButton {
+    margin-left: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #fff;
+    transition: all .8s;
+    border-radius: 10px;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+.slide .actionButton:hover {
+    background-color: #14ff72cb;
+    color: black;
+    border: none;
+}
+
+/* Keyframe for animation */
+@keyframes animate {
+    from {
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}
+
+/* Media Queries for mobile screens (320px to 1020px) */
+@media screen and (max-width: 1020px) {
+    .slide .subtitle {
+        font-size: 60px;  /* Decrease font size for subtitle */
+    }
+
+    .slide .title {
+        font-size: 50px;  /* Decrease font size for title */
+    }
+
+    .slide .description {
+        font-size: 14px;  /* Slightly smaller description text */
+        width: 80%;  /* Adjust description width */
+    }
+
+    .slide .actionButton {
+        font-size: 14px;  /* Smaller font for buttons */
+        padding: 8px 16px;  /* Smaller padding for buttons */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide .subtitle {
+        font-size: 50px;  /* Decrease further for smaller screens */
+    }
+
+    .slide .title {
+        font-size: 40px;  /* Decrease further for smaller screens */
+    }
+
+    .slide .description {
+        font-size: 13px;  /* Adjust description size */
+        width: 90%;  /* Adjust description width */
+    }
+
+    .slide .actionButton {
+        font-size: 13px;  /* Smaller font for buttons */
+        padding: 6px 14px;  /* Smaller padding for buttons */
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slide .subtitle {
+        font-size: 40px;  /* Further decrease font size for very small screens */
+        min-width: 100%;
+    }
+
+    .slide .title {
+        font-size: 40px; 
+        min-width: 100%;
+    }
+
+    .slide .description {
+        font-size: 12px;  /* Smaller font for description */
+        width: 100%;  /* Full width for small screens */
+        /* display: none; */
+        margin-bottom: 10px;
+    }
+
+    .slide .actionButton {
+        font-size: 16px;  /* Smaller font for buttons */
+        padding: 8px 16px;  /* Smaller padding for buttons */
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}

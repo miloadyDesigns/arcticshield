@@ -21,6 +21,16 @@ module.exports = {
 
       },
     },
+    screens: {
+      xs: '320px',
+      xls: '380px',   // Extra small screens
+      sm: '460px',    // Small screens
+      md: '768px',    // Medium screens
+      lg: '1024px',   // Large screens
+      xl: '1440px',   // Extra large screens
+      '2xl': '1536px', // 2X extra large screens
+      '1366': '1300px', // Custom breakpoint for 1366px screens
+    },
   },
   plugins: [],
 

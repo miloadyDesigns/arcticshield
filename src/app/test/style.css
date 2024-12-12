@@ -1,0 +1,58 @@
+.slide .subtitle{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #14ff72cb;
+    font-weight: bold;
+    line-height: 1;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+.slide .title{
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    color: white;   
+    width: 100%;
+    text-shadow: 3px 4px 4px rgba(255, 255, 255, 0.8);
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+.slide .description{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    color: white;
+    width: 70%;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+.slide .actionButton{
+    margin-left: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border: 2px solid #fff;
+    transition: all .8s;
+    border-radius: 10px;
+    animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+.slide .actionButton:hover{
+    background-color:#14ff72cb;
+    color: black;
+    border: none;
+}
+@keyframes animate {
+    
+    from{
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(33px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+    }
+}

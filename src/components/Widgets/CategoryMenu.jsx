@@ -20,12 +20,12 @@ const frameworks = createListCollection({
 })
 const CategoryMenu = () => {
     return (
-        <Stack gap="5" width="140px">
+        <Stack gap="5" className="xs:w-[120px] lg:w-[150px]">
             <For each={["outline"]}>
                 {(variant) => (
                     <SelectRoot key={variant} variant={variant} collection={frameworks}>
                         <SelectTrigger>
-                            <SelectValueText placeholder="All Categories" className='text-white' />
+                            <SelectValueText placeholder="All Categories" className='text-white xs:text-sm lg:text-lg' />
                         </SelectTrigger>
                         <SelectContent>
                             {frameworks.items.map((movie) => (
