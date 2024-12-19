@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="w-screen bg-black pb-8">
             <div className="xs:w-[100%] lg:w-[80%] m-auto mt-4 flex xs:flex-col lg:flex-row justify-around">
                 <div className="xs:w-[90%] lg:w-[25%] flex flex-col  pt-12 px-5">
-                    <img src="/images/logo2.avif" alt="" className='w-[200px]' />
+                    <img src="/images/logo1.png" alt="" className='w-[200px]' />
                     <p className="mt-4 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique sint harum, perspiciatis facilis dolore esse soluta eligendi? Repellat, quas dignissimos!</p>
                     <div className="flex gap-4 mt-4">
                         <FaInstagram size={30} color="white" />
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
             <div className='w-[80%] border border-gray-600 m-auto mt-8'></div>
             <div className='w-[80%]  m-auto py-3'>
-                <h3 className='text-white'>© 2024 ClixAuto. Powered by MiloadyDesigns</h3>
+                <h3 className='text-white'>© 2024 Arctic Shield Wipers. Powered by MiloadyDesigns</h3>
             </div>
         </div>
     )

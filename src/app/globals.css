@@ -35,7 +35,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .parallel-x{
-  background: url("/images/utils/protectedWiper.jpg") repeat fixed 100%;
+  background: url("/images/utils/stickyBanner.jpg") repeat fixed 100%;
+  object-fit: cover;
 }
 .parallex-inner{
   padding-top: 10%;
@@ -52,8 +53,9 @@ body {
   display: inline-block;
   border-radius: 100px;
   transition: transform 0.2s, box-shadow 0.2s;
-  background-color: #14ff72cb;
+  background-color: #0089da;
   font-weight: 700;
+  color: white;
 }
 
 .btn-watch:hover {

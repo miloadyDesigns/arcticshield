@@ -5,7 +5,7 @@ body{
 .slide .subtitle {
     font-size: 100px;
     text-transform: uppercase;
-    color: #14ff72cb;
+    color: #0089da;
     font-weight: bold;
     line-height: 1;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
@@ -62,6 +62,25 @@ body{
         opacity: 1;
         transform: translate(0);
         filter: blur(0);
+    }
+}
+@media screen and (max-width: 1440px) {
+    .slide .subtitle {
+        font-size: 60px;  /* Decrease font size for subtitle */
+    }
+
+    .slide .title {
+        font-size: 50px;  /* Decrease font size for title */
+    }
+
+    .slide .description {
+        font-size: 14px;  /* Slightly smaller description text */
+        width: 80%;  /* Adjust description width */
+    }
+
+    .slide .actionButton {
+        font-size: 14px;  /* Smaller font for buttons */
+        padding: 8px 16px;  /* Smaller padding for buttons */
     }
 }
 

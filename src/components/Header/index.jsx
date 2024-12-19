@@ -15,7 +15,7 @@ const Header = ({ }) => {
             <div className='w-[80%] m-auto h-full xs:hidden lg:block'>
                 <div className='flex justify-evenly items-center h-full '>
                     <div className='w-[10%]'>
-                        <img src="/images/logo2.avif" alt="" className='w-[200px] ' />
+                        <img src="/images/logo1.png" alt="" className='w-[200px] ' />
                     </div>
                     <div className='w-[50%] border border-gray-400 flex  p-2 rounded-lg'>
                         <div className='pl-2'>
@@ -65,7 +65,7 @@ const Header = ({ }) => {
             <div className='xs:block lg:hidden w-[100%]'>
                 <div className='flex justify-between -ml-6 w-full'>
                     <div className='p-2 '>
-                        <img src="/images/logo2.avif" alt="" className='w-[150px] ' />
+                        <img src="/images/logo1.png" alt="" className='w-[150px] ' />
                     </div>
                     <div className='flex items-center gap-2 '>
                         <div className='cursor-pointer'>

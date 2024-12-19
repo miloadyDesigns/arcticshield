@@ -43,7 +43,7 @@ const ProductMainSwiper = () => {
             >
                 <SwiperSlide>
                     <div
-                        className="w-screen xs:h-[85vh] lg:h-[80vh] relative slide"
+                        className="w-screen xs:h-[100vh] lg:h-[80vh] relative slide"
                         style={{
                             background: 'url("/images/wiper.gif")',
                             backgroundSize: 'cover',
@@ -102,7 +102,7 @@ const ProductMainSwiper = () => {
                                             ))}
                                         </SelectContent>
                                     </SelectRoot>
-                                    <div className='bg-[#14ff72cb] p-3 rounded-lg mt-2 w-[80%] text-center cursor-pointer text-black'>
+                                    <div className='bg-[#0089da] p-3 rounded-lg mt-2 w-[80%] text-center cursor-pointer text-black'>
                                         Search
                                     </div>
                                 </div>
