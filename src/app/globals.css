@@ -35,8 +35,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .parallel-x{
-  background: url("/images/utils/stickyBanner.jpg") repeat fixed 100%;
-  object-fit: cover;
+  background: url("/images/utils/protectedWiper.jpg") repeat fixed 10%;
 }
 .parallex-inner{
   padding-top: 10%;
