@@ -291,7 +291,7 @@ export default function Home() {
                 <div
                   className="w-[50%] border relative rounded-xl overflow-hidden cursor-pointer"
                   style={{
-                    backgroundImage: "url('/images/collections/collection3.jpg')",
+                    backgroundImage: "url('/images/collections/collection3.png')",
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
