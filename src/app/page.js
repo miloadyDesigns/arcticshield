@@ -85,7 +85,7 @@ const data = [
     "discounted_price": 59.99,
     "description": "Soft, absorbent, and perfect for lounging. Available in various colors and sizes.",
     "category": "Ice Scraper",
-    "image": "/images/products/ice1.png"
+    "image": "/images/products/ice6.png"
   },
   {
     "title": "Winter Ice Scraper",
@@ -93,7 +93,7 @@ const data = [
     "discounted_price": 159.99,
     "description": "Save space with adjustable weights. Ideal for home fitness routines.",
     "category": "Ice Scraper",
-    "image": "/images/products/ice2.jpg"
+    "image": "/images/products/ice6.png"
   },
   {
     "title": "Winter Ice Scraper",
@@ -101,7 +101,7 @@ const data = [
     "discounted_price": 1099.99,
     "description": "High-performance laptop for gaming and work. Features the latest GPU and fast refresh rate.",
     "category": "Ice Scraper",
-    "image": "/images/products/ice3.webp"
+    "image": "/images/products/ice6.png"
   },
   {
     "title": "Winter Ice Scraper",
@@ -109,7 +109,7 @@ const data = [
     "discounted_price": 29.99,
     "description": "Lightweight and foldable for easy storage. Non-slip surface for stability during practice.",
     "category": "Ice Scraper",
-    "image": "/images/products/ice5.jpg"
+    "image": "/images/products/ice6.png"
   },
   {
     "title": "T-Shirt For Men",
@@ -401,8 +401,9 @@ export default function Home() {
         </div>
         <div className="parallel-x">
           <div className="parallex-inner">
-            <h3 className=" font-salvatoro font-bold xs:text-[24px] lg:text-[46px] xs:w-[90%] lg:w-[40%] text-center text-white">Here Shall You See, No Enemy, Except for Winter and Harsh Weather.</h3>
-            <p className="text-lg font-roboto mt-2 text-white xs:text-center lg:text-left">Arctic Shield is the answer to all your winter problems.</p>
+            <div className="bg-black opacity-5 "></div>
+            <h3 className=" font-salvatoro font-extrabold xs:text-[24px] lg:text-[46px] xs:w-[90%] lg:w-[40%] text-center text-white">Here Shall You See, No Enemy, Except for Winter and Harsh Weather.</h3>
+            <p className="text-lg font-roboto mt-2 font-extrabold text-white xs:text-center lg:text-left">Arctic Shield is the answer to all your winter problems.</p>
             <div className="mt-4">
               <a href="#" className="btn-watch btn-white btn-animate">Watch Video</a>
             </div>
